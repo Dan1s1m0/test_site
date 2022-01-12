@@ -1,0 +1,100 @@
+*{
+	font-family: Arial; /*Шрифт*/
+}
+body{
+	background-color: #743000; /*Цвет фона*/
+	padding: 0 100px; /*Внутренние отступы слева и спрва */
+}
+.a1{color: white;
+	width: 100%;
+margin-bottom: 0;
+}
+
+.hh3{
+	font-size: 30px;
+	color: white;
+}
+.bbr{
+	color: #EEC591;
+}
+.content{
+	background-color: white; /*Цвет фона*/
+	margin: 0 ;  /*Убираем внешние отступы*/
+	padding: 15px;  /*Внутренние оступы*/
+}
+li{
+	list-style-type: none;  /*Убираем маркеры у списка*/
+}
+.flex{
+    display: flex;  /* Распологаем элемнты горизонтально */
+	justify-content: space-between;  /*добавляем одинаковое растоняие между элемтами*/
+	align-items: center;  /*Вертикальное выравнивание по центру*/
+}
+.menu{
+	font-size: 20px;  /*Размер шрифта*/
+	background-color: black; /*Цвет фона*/
+	color: white;  /*Цвет шрифта*/
+	margin-bottom: 15px;  /*Внешние отступы*/
+}
+.menu>li{
+	/*margin: 25px 50px;*/
+	width: 20%; /*Ширина*/
+	text-align: center; /*Выравние текста по горизонтали*/
+	padding: 15px;/*Внутренний отступ*/
+}
+.menu>li>a{
+	text-decoration: none; /*Убираем подчеркивание*/
+	color: white; /*Цвет шрифта*/
+}
+#home{
+	background-color: grey;/*Цвет фона*/
+}
+.im>img{
+width: 100%; /*Ширина*/
+height: auto; /*Высота*/
+}
+h1{
+	color: #743000;/*Цвет шрифта*/
+	font-size: 30px;/*Размер шрифта*/
+	font-weight: bold;/*Жирность шрифта*/
+}
+a{
+	text-decoration: none;  /*Убираем подчеркивание*/
+	color:#8FBC8F;/*Цвет шрифта*/
+}
+.flex-star{
+	display: flex; /* Распологаем элемнты горизонтально */
+	justify-content: space-between;/*добавляем одинаковое растоняие между элемтами*/
+	align-items: flex-start; /*Выпавнивание по вертикали сверху*/
+}
+.txt{
+width: 70%;
+}
+.block{
+width: 30%;
+}
+.bl1{
+	background-color: #EEE5DE;
+	padding: 5px 10px 15px 10px;
+	margin: 10px;
+}
+h2{
+	font-size: 22px;
+	color: white;
+	background-color: #4682B4;
+	padding: 5px;
+}
+.bl1>a>li{
+	margin: 5px;
+	border-bottom-color: #EEDFCC;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+.footer{
+	margin: 5px 0;
+	background-color: #C1FFC1;
+	padding:15px;
+}
+.footer>p{
+	text-align: center;
+}
